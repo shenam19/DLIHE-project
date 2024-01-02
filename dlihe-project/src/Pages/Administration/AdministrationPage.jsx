@@ -1,10 +1,21 @@
 import React from "react";
 import upper from "/images/upper.png";
-import pata from "/images/pata.jpeg";
-import schofees from "/images/schofees.png";
-import admission from "/images/admission.png";
-import request from "/images/request.png";
-import applyadd from "/images/applyadd.png";
+import dl from "/images/dl.png"
+import amala from "/images/amala.png"
+import eduapp from "/images/eduapp.png"
+import library from "/images/library.png"
+import philosophy from "/images/philosophy.png"
+import mission from "/images/mission.png"
+import faculty from "/images/faculty.png"
+import impact from "/images/impact.png"
+import gallery from "/images/gallery.png"
+import visitors from "/images/visitors.png"
+import update from "/images/update.png"
+import opportunity from "/images/opportunity.png"
+import campus from "/images/campus.png"
+
+import './epage.css'
+
 const AdministrationPage = () => {
   return (
     <>
@@ -143,90 +154,86 @@ const AdministrationPage = () => {
           </div>
         </div>
       </div>
-      <div className="content5 w-4/5 ml-32">
-        <div className="header2">
-          <h2 className="header212">EXPLORE MORE ABOUT SCHOLARSHIP & FEES</h2>
-          <div className="sub2">
-            {/* <hr className='hr4'/> */}
-            <div className="hr4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="528"
-                height="4"
-                viewBox="0 0 528 4"
-                fill="none"
-              >
-                <path
-                  d="M2 2L526 2.00005"
-                  stroke="#FDB714"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </div>
-            <img className="pataimage" alt="pata" src={pata} />
-            {/* <hr className='hr5'/> */}
-            <div className="hr5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="535"
-                height="4"
-                viewBox="0 0 535 4"
-                fill="none"
-              >
-                <path
-                  d="M2 2H533"
-                  stroke="#FDB714"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </div>
-          </div>
-          <div className="sub3">
-            <div className="schofees">
-              <a href="" target="_blank">
-                <div className="overlay-content1">
-                  <div className="content-details fadeIn-bottom">
-                    <h3>SCHOLARSHIP AND FEES</h3>
-                  </div>
+      <div className='overall'>  
+             <div className='fline'>
+                <div className="dlmessage">
+                       <a href="" target="_blank">
+                        <div className="content-overlay">
+                        <div className="content-details fadeIn-bottom">
+                            <h3>Dalai Lama Message</h3>
+                        </div>
+                        </div>
+                        <img className="content-image" alt="dl" src={dl} />
+                       
+                    </a>  
                 </div>
-                <img className="content-image" alt="dl" src={schofees} />
-              </a>
-            </div>
-            <div className="admission">
-              <a href="" target="_blank">
-                <div className="overlay-content2">
-                  <div className="content-details fadeIn-bottom">
-                    <h3>ADMISSION</h3>
-                  </div>
+                <div className="amamessage">
+                       <a href="" target="_blank">
+                        <div className="content-overlay1">
+                        <div className="content-details fadeIn-bottom">
+                            <h3>AMALA'S MESSAGE</h3>
+                        </div>
+                        </div>
+                        <img className="content-image" alt="dl" src={amala} />
+                       
+                    </a>  
                 </div>
-                <img className="content-image" alt="dl" src={admission} />
-              </a>
-            </div>
-            <div className="request">
-              <a href="" target="_blank">
-                <div className="overlay-content3">
-                  <div className="content-details fadeIn-bottom">
-                    <h3>REQUEST INFORMATION</h3>
-                  </div>
+                <div className="eduapproach">
+                       <a href="" target="_blank">
+                        <div className="content-overlay2">
+                        <div className="content-details fadeIn-bottom">
+                            <h3>Our Educational Approach</h3>
+                        </div>
+                        </div>
+                        <img className="content-image" alt="dl" src={eduapp} />
+                       
+                    </a>  
                 </div>
-                <img className="content-image" alt="dl" src={request} />
-              </a>
-            </div>
-            <div className="applyadd">
-              <a href="" target="_blank">
-                <div className="overlay-content4">
-                  <div className="content-details fadeIn-bottom">
-                    <h3>APPLY ADMISSION</h3>
-                  </div>
+                <div className="library">
+                       <a href="" target="_blank">
+                        <div className="content-overlay3">
+                        <div className="content-details fadeIn-bottom">
+                            <h3>library</h3>
+                        </div>
+                        </div>
+                        <img className="content-image" alt="dl" src={library} />
+                       
+                    </a>  
                 </div>
-                <img className="content-image" alt="dl" src={applyadd} />
-              </a>
             </div>
-          </div>
+            <div className='sline'>
+                <div className="philosophy">
+                       <a href="" target="_blank">
+                        <div className="content-overlay4">
+                        <div className="content-details fadeIn-bottom">
+                            <h3>our philosophy</h3>
+                        </div>
+                        </div>
+                        <img className="content-image" alt="dl" src={philosophy} />
+                    </a>  
+                </div>
+                <div className="mission">
+                       <a href="" target="_blank">
+                        <div className="content-overlay5">
+                        <div className="content-details fadeIn-bottom">
+                            <h3>mission and strategic</h3>
+                        </div>
+                        </div>
+                        <img className="content-image" alt="dl" src={mission} />
+                    </a>  
+                </div>
+                <div className="faculty">
+                       <a href="" target="_blank">
+                        <div className="content-overlay6">
+                        <div className="content-details fadeIn-bottom">
+                            <h3>faculty and staff</h3>
+                        </div>
+                        </div>
+                        <img className="content-image" alt="dl" src={faculty} />
+                    </a>  
+                </div>
+            </div>
         </div>
-      </div>
     </>
   );
 };
