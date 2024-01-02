@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import pata from "/images/pata.jpeg"
 import dl from "/images/dl.png"
 import amala from "/images/amala.png"
@@ -13,10 +13,12 @@ import visitors from "/images/visitors.png"
 import update from "/images/update.png"
 import opportunity from "/images/opportunity.png"
 import campus from "/images/campus.png"
+import ShowModel from './ShowModel'
 
 import './Epage.css'
 
 export const Epage = () => {
+    const [OpenModel, setOpenModel] = useState(false);
   return (
     <div className='Epage'>
         <h2 className='eheader'>EXPLORE MORE ABOUT DLIHE</h2> 
@@ -36,14 +38,16 @@ export const Epage = () => {
         <div className='overall'>  
              <div className='fline'>
                 <div className="dlmessage">
-                       <a href="" target="_blank">
+                    <a target="_blank" onClick={() => {
+                        setOpenModel(true);
+                         }}>
                         <div className="content-overlay">
                         <div className="content-details fadeIn-bottom">
                             <h3>Dalai Lama Message</h3>
                         </div>
                         </div>
                         <img className="content-image" alt="dl" src={dl} />
-                       
+                        {OpenModel && <ShowModel CloseModel={setOpenModel} />}
                     </a>  
                 </div>
                 <div className="amamessage">

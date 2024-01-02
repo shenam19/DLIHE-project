@@ -1,7 +1,7 @@
 import React from "react";
-import bu from '/public/images/Bu.png'
-import bca from '/public/images/bca.jpg'
-import phd from '/public/images/phd.jpg'
+import bu from '/images/Bu.png'
+import bca from '/images/bca.jpg'
+import phd from '/images/phd.jpg'
 import commerce from '/public/images/commerce.jpg'
 
 function Programs() {
