@@ -56,26 +56,28 @@ li {
 }
 
 /* Main Header */
-
 .header {
   height: 100vh;
   background-image: linear-gradient(
       to right,
-      rgba(16, 16, 16, 0.3),
-      rgba(27, 25, 25, 0.3)
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
     ),
     url("/images/Hero.JPG");
   background-size: cover;
+  background-attachment: fixed;
+  /* background-size: 100%; */
   background-position: top;
   animation: zoomOut 8s ease-in;
   transform-origin: center;
 }
 
-/* button */
-.btn:hover {
+/* button  */
+.bttn:hover {
   border-bottom: none;
   transform: translateY(-4px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  color: var(--color-red);
 }
 .btn-container {
   position: absolute;
@@ -84,23 +86,23 @@ li {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.btn:active {
+.bttn:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-.btn:link,
-.btn:visited {
+.bttn:link,
+.bttn:visited {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  padding: 1px 45px;
+  padding: 15px 45px;
   border-radius: 100px;
   transition: all 0.2s;
   position: relative;
   animation: moveUp 4s 2s;
   animation-fill-mode: backwards;
 }
-.btn::after {
+.bttn::after {
   content: "";
   display: inline-block;
   width: 100%;
@@ -112,18 +114,18 @@ li {
   z-index: -1;
   transition: all 0.4s;
 }
-.btn-yellow {
+.bttn-yellow {
   background-color: var(--color-yellow);
   color: var(--color-red);
 }
-.btn-yellow::after {
+.bttn-yellow::after {
   background-color: var(--color-yellow);
 }
-.btn:hover::after {
+.bttn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
-.btn-animated {
+.bttn-animated {
   animation: appear 0.9s ease-out 0.75s;
   animation-fill-mode: backwards;
 }

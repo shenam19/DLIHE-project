@@ -6,7 +6,10 @@ const Header = () => {
       <div className="contain">
         <main className="header zoom-effect">
           <div className="btn-container">
-            <a href="" className="btn btn-yellow btn-animated text-2xl font-md">
+            <a
+              href=""
+              className="bttn bttn-yellow bttn-animated text-2xl font-md"
+            >
               Apply Now
             </a>
           </div>
