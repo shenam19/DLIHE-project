@@ -9,7 +9,7 @@ const Message = () => {
 
         {/* black bar */}
         <div className=" h-[372px] w-[43%] bg-black bg-opacity-50 relative bottom-[720px] left-[950px] flex flex-col items-center justify-center">
-          <h1 className=" text-[#FDB714] text-[36px] font-bold text-center w-[658.825px]">
+          <h1 className=" text-[#FDB714] text-[36px] font-bold text-center w-[]">
             MESSAGE FROM HIS HOLINESS THE 14th DALAI LAMA
           </h1>
           <p className=" w-[659.828px] text-[20px] text-white text-center font-light">
