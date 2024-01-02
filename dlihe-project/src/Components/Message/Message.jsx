@@ -8,11 +8,11 @@ const Message = () => {
         <img src={hisholiness} className=" object-cover h-[720px] w-full " />
 
         {/* black bar */}
-        <div className=" h-[372px] w-[43%] bg-black bg-opacity-50 relative bottom-[720px] left-[950px] flex flex-col items-center justify-center">
-          <h1 className=" text-[#FDB714] text-[36px] font-bold text-center w-[]">
+        <div className=" h-[372px] w-[45%] bg-black bg-opacity-50 relative bottom-[720px] left-[55%] flex flex-col items-center justify-center">
+          <h1 className=" text-[#FDB714] text-[36px] font-bold text-center w-[90%]">
             MESSAGE FROM HIS HOLINESS THE 14th DALAI LAMA
           </h1>
-          <p className=" w-[659.828px] text-[20px] text-white text-center font-light">
+          <p className=" w-[90%] text-[20px] text-white text-center font-light">
             “The most important use of knowledge and education is to help us
             understand the importance of engaging in more wholesome actions and
             bringing about discipline within our minds.”
