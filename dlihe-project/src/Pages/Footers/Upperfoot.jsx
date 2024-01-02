@@ -15,7 +15,7 @@ export default function Upperfoot(){
                 </div>
                 
                 <img className="image" src={College} alt="Random"/>
-                <p className="line"></p>
+                <div className="line1"></div>
          </div>
     )
     

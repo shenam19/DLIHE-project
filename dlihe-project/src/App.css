@@ -33,7 +33,7 @@
  .first1{
      display: flex;
      margin: 60px auto;
-     margin-bottom:0;
+     margin-bottom:50px;
      
  }
  
@@ -104,11 +104,14 @@
      height: 519px;
      flex-shrink: 0;
      width:100%;
+     margin-bottom: 0px;
  }
  
- .line{
+ .line1{
      background: #FDB714;
      height: 15px;
+     margin: 0px;
+     padding: 0px;
      
  }
  
@@ -335,7 +338,7 @@
  .copyright{
      display: flex;
      justify-content: center;
-     padding-top: 15px;
+     padding-top: 10px;
      width: 1440px;
      height: 42px;
      flex-shrink: 0;

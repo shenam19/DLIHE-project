@@ -50,7 +50,7 @@ const Lowerfoot = () => {
          </div>
 
         </footer>
-        <p className="copyright">2023-Dalai Lama Institute For Higher Education Website Design & Developed by PGD Full-Stack-Student.</p>
+        <div className="copyright">2023-Dalai Lama Institute For Higher Education Website Design & Developed by PGD Full-Stack-Student.</div>
     </div>
   )
 }
