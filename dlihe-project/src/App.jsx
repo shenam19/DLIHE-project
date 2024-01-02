@@ -15,7 +15,7 @@ import EventDetail from "./Pages/EventDetail";
 import Announcement from "./Pages/AllAnouncement";
 import Student from "./Pages/StudentCouncil/Student";
 import Lowerfoot from "./Pages/Footers/Lowerfoot";
-import AdministrationPage from "./Pages/AdministrationPage";
+import AdministrationPage from "./Pages/Administration/AdministrationPage";
 
 import "./App.css";
 
