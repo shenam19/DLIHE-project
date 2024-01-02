@@ -8,7 +8,7 @@ const Message = () => {
         <img src={hisholiness} className=" object-cover h-[720px] w-full " />
 
         {/* black bar */}
-        <div className=" h-[372px] w-[711.972px] bg-black bg-opacity-50 relative bottom-[720px] left-[950px] flex flex-col items-center justify-center">
+        <div className=" h-[372px] w-[43%] bg-black bg-opacity-50 relative bottom-[720px] left-[950px] flex flex-col items-center justify-center">
           <h1 className=" text-[#FDB714] text-[36px] font-bold text-center w-[658.825px]">
             MESSAGE FROM HIS HOLINESS THE 14th DALAI LAMA
           </h1>
@@ -18,6 +18,7 @@ const Message = () => {
             bringing about discipline within our minds.”
           </p>
         </div>
+
 
         {/* red bar */}
         <div className=" w-full h-[384px] bg-[#9A0002] relative bottom-[720px]">
