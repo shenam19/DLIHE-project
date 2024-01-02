@@ -1,8 +1,8 @@
 import React from "react";
-import bu from '../../../public/images/Bu.png'
-import bca from '../../../public/images/bca.jpg'
-import phd from '../../../public/images/phd.jpg'
-import commerce from '../../../public/images/commerce.jpg'
+import bu from '/public/images/Bu.png'
+import bca from '/public/images/bca.jpg'
+import phd from '/public/images/phd.jpg'
+import commerce from '/public/images/commerce.jpg'
 
 function Programs() {
   const handleMouseEnter = (e) => {
