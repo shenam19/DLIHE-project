@@ -118,7 +118,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollThreshold = 100;
+      const scrollThreshold = 630;
       setNavbarScrolled(window.scrollY > scrollThreshold);
     };
 
@@ -147,7 +147,7 @@ const Navbar = () => {
             isNavbarScrolled ? "smallerTopNav" : ""
           }`}
         >
-          <ul className="flex space-x-16 justify-center  ">
+          <ul className="pl-7 flex space-x-12 justify-start  ">
             <li>
               <Link to="/about">About</Link>
             </li>
@@ -169,23 +169,23 @@ const Navbar = () => {
           </ul>
         </div>
         <div
-          className={`p-5 top_nav flex justify-evenly px-10   font-bold ${
+          className={`p-5 top_nav flex justify-start space-x-20  px-10   font-bold ${
             isNavbarScrolled ? "smallerBottomNav" : ""
           }  `}
         >
           <Link to="/" className=" hover:border-b-0">
-            <div className="left-box flex  w-60 ">
+            <div className="left-box flex  w-[18rem]  ">
               <div className="logo mr-3">
                 <img
                   src="/images/logo.jpeg"
                   alt=""
-                  className={` ml-1 w-20 h-20 rounded-xl ${
+                  className={` ml-1 w-24 h-20 mt-2 rounded-xl ${
                     isNavbarScrolled ? "smallerLogo" : ""
                   } `}
                 />
               </div>
               <h1
-                className={`logo-text w-[6.5rem] text-sm font-bold  text-center ${
+                className={`logo-text w-[8.5rem] text-sm font-bold  text-center ${
                   isNavbarScrolled ? "smallerText" : ""
                 }`}
               >

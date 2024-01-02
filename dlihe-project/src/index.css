@@ -41,6 +41,7 @@ li {
   border-left: 3px solid var(--color-yellow);
   padding-left: 8px;
   color: var(--color-red);
+  padding-top: 10px;
 }
 .main-text {
   color: var(--color-yellow);
@@ -285,6 +286,7 @@ a:hover {
 }
 .smallerTopNav {
   padding: 0.2rem;
+  margin-right: -30px;
   transition: padding 0.8s ease;
   transform-origin: center;
 }
@@ -304,6 +306,7 @@ a:hover {
   border-left: 2px solid var(--color-yellow);
   line-height: 1.1rem;
   padding-left: 8px;
+  padding-top: 15px;
   transition: padding 0.8s ease;
 
   transform-origin: center;
