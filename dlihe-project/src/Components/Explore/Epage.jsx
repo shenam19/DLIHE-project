@@ -19,7 +19,7 @@ import './Epage'
 export const Epage = () => {
   return (
     <div className='Epage'>
-        <h2>EXPLORE MORE ABOUT DLIHE</h2> 
+        <h2 className='eheader'>EXPLORE MORE ABOUT DLIHE</h2> 
         <div className='UpperP'>
             <div id="line1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="528" height="4" viewBox="0 0 528 4" fill="none">
