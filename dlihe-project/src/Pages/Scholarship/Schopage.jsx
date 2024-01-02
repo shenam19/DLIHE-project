@@ -10,12 +10,12 @@ import './Schopage.css'
 
 export const Schopage = () => {
   return (
-    <div className='schopage h-[100%] pt-[167px]'>
+    <div className='schopage'>
         <img className='simage' src={upper} alt="simage"/>
         <div className='container'>
             <div className='gap'>
                 <div className='vline'></div>
-                <h2 className='header2'>SCHOLARSHIP & FEES</h2>
+                <h2 className='header21'>SCHOLARSHIP & FEES</h2>
             </div>
             <div className='content'>
                 <a className='link' href="">TCV scholarships are tenable only for full-time, 
@@ -116,8 +116,10 @@ export const Schopage = () => {
                     <p id='paragraph'>For all matters regarding Scholarship, please contact the Principal.</p>
                 </div>
                 <div className='content5'>
-                    <h2 className='header2'>
-                        EXPLORE MORE ABOUT SCHOLARSHIP & FEES 
+                    <div className='header2'>
+                        <h2 className='header212'>
+                        EXPLORE MORE ABOUT SCHOLARSHIP & FEES
+                        </h2>
                         <div className='sub2'>
                             {/* <hr className='hr4'/> */}
                             <div className='hr4'>
@@ -175,7 +177,7 @@ export const Schopage = () => {
                                 </a>  
                             </div>
                         </div>
-                    </h2>
+                    </div>
                 </div>
             </div>
         </div>

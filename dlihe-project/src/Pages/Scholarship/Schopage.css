@@ -1,19 +1,27 @@
-
 .schopage{
     display:grid;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 .container .content{
     display:grid;
-    padding-left: 152px;
-    padding-right:152px;
+    margin-left: 170px;
+    /* padding-right:152px; */
     justify-content: space-evenly;
-    /* align-items: center; */
-    
+    align-items: center;
+}
+
+.header21{
+    color: #9A0002;
+    text-align: center;
+    font-family: Avenir LT Pro;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 30px;
 }
 
 .gap{
@@ -23,11 +31,12 @@
 
 .vline{
     border-left: 3px solid #FDB714;
-    height: 50px;
+    height: 57px;
     width: 0px;
-    margin-top:32px;
+    margin-top:48px;
     margin-right: 17px;
     margin-left: 152px;
+    margin-bottom: 0px;
 }
 
 .link{
@@ -40,6 +49,7 @@
     line-height: normal;
     text-decoration-line: underline;
     text-transform: lowercase;
+    margin-bottom: 20px;
 }
 
 .para1{
@@ -62,11 +72,13 @@
     font-weight: 400;
     line-height: normal;
     text-transform: lowercase;
+    margin-bottom: 20px;
 }
 
 .content2{
     display:grid;
     justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 
 .secheader{
@@ -90,14 +102,6 @@
     width: 1136px;
     height: 0px;
     flex-shrink: 0;
-    
-    /* stroke-width: 2px;
-    stroke: #FDB714;
-    width: 524px;
-    height: 0px;
-    flex-shrink: 0;
-    margin-right: 35px;
-    margin-bottom:20px; */
 }
 
 .olist{
@@ -116,7 +120,7 @@
 
 .content3{
     display: grid;
-    
+    margin-bottom:20px;
 }
 
 .headerh3{
@@ -162,7 +166,6 @@
     line-height: normal;
     text-transform: uppercase;
     margin-bottom: 0;
-    /* margin-bottom: 10px; */
 }
 
 .hr3{
@@ -182,10 +185,9 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
     text-transform: lowercase;
     margin-top: 20px;
-    
 }
 
 .content4{
@@ -201,26 +203,36 @@
     font-weight: 750;
     line-height: normal;
     text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.header212{
+    color: #9A0002;
+    text-align: center;
+    font-family: Avenir LT Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
 .sub2{
     display:flex;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    justify-content: center;
 }
 
 .hr4{
-    /* width: 524px;
-    height: 0px;
-    flex-shrink: 0;
-    stroke-width: 4px;
-    stroke: #FDB714;
-    margin-right: 35px; */
     stroke-width: 4px;
     stroke: #FDB714;
     width: 524px;
     height: 0px;
     flex-shrink: 0;
     margin-right: 35px;
+    margin-top: 10px;
 }
 
 .pataimage{
@@ -229,16 +241,10 @@
     height: 30.887px;
     transform: rotate(89.488deg);
     flex-shrink: 0;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .hr5{
-    /* margin-left: 35px;
-    width: 524px;
-    height: 0px;
-    flex-shrink: 0;
-    stroke-width: 4px;
-    stroke: #FDB714; */
     stroke-width: 4px;
     stroke: #FDB714;
     width: 531px;
@@ -246,11 +252,12 @@
     flex-shrink: 0;
     margin-bottom: 20px;
     margin-left: 35px;
+    margin-top: 10px;
 }
 
 .sub3{
     display: flex;
-    margin-left: 10px;
+    /* margin-left:5px; */
     gap:22px;
 
 }
@@ -278,8 +285,8 @@
     width: 367px;
     height: 150px;
     flex-shrink: 0;
-    left:148px;
-    top:2771px;
+    left: px;
+    top:0.5px;
     bottom: 0;
     right: 0;
     opacity: 0;
@@ -346,8 +353,8 @@
     width: 173px;
     height: 150px;
     flex-shrink: 0;
-    left:537px;
-    top:2771px;
+    left:px;
+    top:0.5px;
     bottom: 0;
     right: 0;
     opacity: 0;
@@ -382,8 +389,8 @@
     width: 367px;
     height: 150px;
     flex-shrink: 0;
-    left:732px;
-    top:2771px;
+    left:px;
+    top:0.5px;
     bottom: 0;
     right: 0;
     opacity: 0;
@@ -418,8 +425,8 @@
     width: 175px;
     height: 150px;
     flex-shrink: 0;
-    left:1120.5px;
-    top:2771px;
+    left:px;
+    top:0.5px;
     bottom: 0;
     right: 0;
     opacity: 0;
