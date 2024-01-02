@@ -1,4 +1,8 @@
 import React from "react";
+import bu from '../../../public/images/Bu.png'
+import bca from '../../../public/images/bca.jpg'
+import phd from '../../../public/images/phd.jpg'
+import commerce from '../../../public/images/commerce.jpg'
 
 function Programs() {
   const handleMouseEnter = (e) => {
@@ -29,7 +33,7 @@ function Programs() {
         <div className="relative">
           <img
             className="rounded-2xl overflow-hidden w-full h-[300px] object-cover"
-            src="./images/budhhist studies.jpeg"
+            src={phd}
             alt=""
           />
           <div className="text-container absolute top-0 left-0 w-full h-full overflow-hidden rounded-2xl">
@@ -49,7 +53,7 @@ function Programs() {
           <div className="overflow-hidden rounded-2xl h-[370px] mb-8 ">
             <img
               className="rounded-2xl card-image "
-              src="./images/ug under bangalore.jpeg"
+              src={bu}
               alt=""
               style={{
                 height: "370px",
@@ -73,7 +77,7 @@ function Programs() {
           <div className="overflow-hidden rounded-2xl h-[370px] mb-8 ">
             <img
               className="rounded-2xl card-image "
-              src="./images/BCA.jpeg"
+              src={bca}
               alt=""
               style={{
                 height: "370px",
@@ -97,7 +101,7 @@ function Programs() {
           <div className="overflow-hidden rounded-2xl h-[370px] mb-8 ">
             <img
               className="rounded-2xl card-image "
-              src="./images/bcom.jpeg"
+              src={commerce}
               alt=""
               style={{
                 height: "370px",

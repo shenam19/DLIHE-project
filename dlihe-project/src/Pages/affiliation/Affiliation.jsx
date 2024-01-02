@@ -65,7 +65,7 @@ function Affiliation() {
 
           <h1 className=" text-[40px] font-[750] text-center mt-10 text-[#9A0002]">BANGLORE UNIVERSITY</h1>
 
-          <div className="flex items-center gap-4 ml-64 mt-5 max-xl:invisible">
+          <div className="flex items-center gap-4 ml-64 mt-5 mx-auto">
             <div className=" h-2 border rounded bg-[#FDB714] w-[535px]" />
             <img src={pata} alt="" srcset="" className=" h-10 w-12 rotate-90" />
             <div className=" h-2 rounded border bg-[#FDB714] w-[535px] " />

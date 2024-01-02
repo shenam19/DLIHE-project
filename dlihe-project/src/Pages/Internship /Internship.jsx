@@ -15,7 +15,7 @@ const Internship = () => {
         others.” – Gandhi
       </p>
 
-      <p className="parabox text-center mx-auto mt-10 text-[20px] w-[1260px] font-extralight max-xl:mt-[30px] max-xl:w-[80%]">
+      <p className="parabox text-center mx-auto mt-10 text-[20px] w-[1260px] font-extralight">
         The Dalai Lama Institute for Higher Education provides volunteer and
         internship opportunities for interested individuals as part of their
         personal and professional development. We welcome volunteers who can
