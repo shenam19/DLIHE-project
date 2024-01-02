@@ -4,7 +4,7 @@ import { Epage } from "../../Components/Explore/Epage";
 
 const Campus = () => {
   return (
-    <div>
+    <div className="pt-[10%]">
       <div className=" flex items-center gap-5 ml-40">
         <div className=" w-1 rounded-3xl h-16 bg-[#FDB714]" />
         <h1 className=" text-[80px] font-[750] text-[#9A0002]">Dlihe Campus</h1>

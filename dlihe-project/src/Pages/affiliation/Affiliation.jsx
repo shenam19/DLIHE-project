@@ -4,7 +4,7 @@ import pata from '../../assets/pata.png'
 
 function Affiliation() {
   return (
-    <div className=" pt-[146px]">
+    <div className="">
       <div className="flex flex-col gap-5">
         <img src={sample} className=" w-full h-[350px] object-cover" />
 
@@ -15,13 +15,13 @@ function Affiliation() {
           </h1>
         </div>
 
-        <p className="subheading text-[#FDB714] ml-36 font-light text-[19px] underline underline-offset-4 -mt-5 w-[1350px] text-center tracking-widest cursor-pointer">
+        <p className="subheading text-[#FDB714] border ml-40 font-light text-[19px] underline underline-offset-4 -mt-5 w-[70%] tracking-widest cursor-pointer">
           The Dalai Lama Institute for Higher Education, Bangalore, is TCV’s
           latest educational endeavor, and one of the most significant projects
           ever undertaken by TCV.
         </p>
 
-        <div className=" parabox  w-[1300px] text-[24px] ml-44 font-light">
+        <div className=" parabox  w-[80%] text-[24px] mx-auto font-light">
           <p className=" text-center font-extralight">
             “From the day we became refugees, our basic objective was to rise to
             the very place from where we have fallen down.”
@@ -31,7 +31,7 @@ function Affiliation() {
             – H.H. the Dalai Lama
           </p>
 
-          <p className=" text-center mb-10 font-medium">
+          <p className=" text-center mx-auto mb-10 font-medium">
             And that’s exactly what the affiliates do! They partner with
             Institutes and set them on a platform for the world to see. The
             Dalai Lama Institute for Higher Education is proud to be associated
@@ -39,11 +39,11 @@ function Affiliation() {
             heights that it has:
           </p>
 
-          <p className=" text-center mb-10 ">
+          <p className=" text-center mx-auto mb-10 ">
             The Institute is a part of the{" "}
             <span className="text-[#9A0002]">
               Tibetan Children’s Village (TCV)
-            </span>{" "}
+            </span>
             , an integrated charitable organization for child care and
             educational services. True to its initial vision, as set forth by
             His Holiness the Dalai Lama, the mission of TCV is to ensure that
@@ -61,7 +61,7 @@ function Affiliation() {
           </p>
         </div>
 
-        <div className=" w-full h-[302px] bg-[#FDB71433] max-xl:mt-[750px]">
+        <div className=" w-full h-[302px] bg-[#FDB71433] mx-auto max-xl:mt-[750px]">
 
           <h1 className=" text-[40px] font-[750] text-center mt-10 text-[#9A0002]">BANGLORE UNIVERSITY</h1>
 
@@ -71,7 +71,7 @@ function Affiliation() {
             <div className=" h-2 rounded border bg-[#FDB714] w-[535px] " />
           </div>
 
-          <p className=" description max-xl:w-[90%] max-xl:-mt-5 max-xl:ml-8 text-center mb-10 font-light w-[1180px] ml-64 mt-5">
+          <p className=" description text-center mb-10 font-light w-[1180px] mx-auto mt-5">
           Since 2018, DLIHE was recognized by and became an affiliated institute of Bangalore University. Under the auspices of Bangalore University, DLIHE began offering undergraduate programmes in Arts, Computer Applications, Commerce, and Business Administration, as well as Specialized Programmes (Tibetan Studies, as well as Tibetan Language, Literature, History and Buddhist Philosophy courses). The DLIHE also offers PhD in Tibetan Studies recognized by Bangalore University.
           </p>
 
