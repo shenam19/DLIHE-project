@@ -1,319 +1,306 @@
+.first {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0;
+  width: 100%;
+}
 
-.first{
-     display: grid;
-     align-items: center;
-     text-align: center;
-     margin-bottom: 0;
-     width:100%;
- }
- 
- #header{
-     color: #9A0002;
-     text-align: center;
-     font-family: Avenir LT Pro;
-     font-size: 64px;
-     font-style: normal;
-     font-weight: 750;
-     line-height: normal;
-     text-decoration-line: underline;
-     text-transform: uppercase;
- }
- 
- #header1{
-     color: #FDB714;
-     font-family: Avenir LT Pro;
-     font-size: 64px;
-     font-style: normal;
-     font-weight: 750;
-     line-height: normal;
-     text-decoration-line: underline;
-     text-transform: uppercase;
- }
- 
- .first1{
-     display: flex;
-     margin: 60px auto;
-     margin-bottom:50px;
-     
- }
- 
- .upper_part{
-     margin-bottom: 70px;
- }
- 
- #request{
-     border-radius: 30px;
-     background: #9A0002;
-     width: 340px;
-     height: 74px;
-     flex-shrink: 0;
-     color: #FFF;
-     text-align: center;
-     font-family: Avenir LT Pro;
-     font-size: 24px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: normal;
-     text-transform: uppercase;
-     margin-left:15px;
-     border:none;
-     
-    
- }
- 
- #apply{
-     border-radius: 30px;
-     background: #FDB714;
-     width: 340px;
-     height: 74px;
-     flex-shrink: 0;
-     color: #9A0002;
-     text-align: center;
-     font-family: Avenir LT Pro;
-     font-size: 24px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: normal;
-     text-transform: uppercase;
-     margin-left:30px;
-     border:none;
-     
- }
- 
- #explore{
-     border-radius: 30px;
-     background: #9A0002;
-     width: 340px;
-     height: 74px;
-     flex-shrink: 0;
-     color: #FFF;
-     text-align: center;
-     font-family: Avenir LT Pro;
-     font-size: 24px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: normal;
-     text-transform: uppercase;
-     margin-left:30px;
-     border:none;
-     
- }
- 
- .image{
-     background: lightgray 50% / cover no-repeat;
-     height: 519px;
-     flex-shrink: 0;
-     width:100%;
-     margin-bottom: 0px;
- }
- 
- .line1{
-     background: #FDB714;
-     height: 15px;
-     margin: 0px;
-     padding: 0px;
-     
- }
- 
- .second{
-     background: #9A0002;
-     width: 1440px;
-     height: 362px;
-     flex-shrink: 0;
-     margin-right: 0;
-     margin-top: 0;
-     display: flex;
-     justify-content: space-around;
-     width:100%;
-     
- }
- 
- .foot{
-     padding-top: 0;
-     margin-top:0;
-     border:1px solid red;
-     width:100%;
- }
- 
- .dlihe{
-     border-radius: 20px;
-     background: url(), lightgray 50% / cover no-repeat;
-     width: 202px;
-     height: 201px;
-     flex-shrink: 0;
-     margin-left:80px;
-     margin-top:60px;
-     margin-bottom: 0;
-     
- }
- 
- .logo{
-     display: flex;
-     margin:10px;
-     margin-top:0;
-     margin-left:60px;
- }
- 
- .face{
-     margin-left:10px;
-     margin-right:6px;
-     width: 50px;
-     height: 50px;
-     flex-shrink: 0;
- }
- 
- .twitt{
-     width: 50px;
-     height: 50px;
-     flex-shrink: 0;
-     margin-right:6px;
- }
- 
- .insta{
-     width: 50px;
-     height: 50px;
-     flex-shrink: 0;
-     margin-right:6px;
- }
- 
- .youtube{
-     width: 60px;
-     height: 60px;
-     flex-shrink: 0;
- }
- 
- .vl {
-     border-left: 3px solid #FDB714;
-     height: 300px;
-     width: 0px;
-     margin-top:20px;
- }
- 
- 
- .address{
-     color: #FDB714;
-     font-family: Avenir LT Pro;
-     font-size: 35px;
-     font-style: normal;
-     font-weight: 750;
-     line-height: normal;
-     text-transform: uppercase;
-     margin-bottom: 0;
-     margin-top:30px;
- }
+#header {
+  color: #9a0002;
+  text-align: center;
+  font-family: Avenir LT Pro;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 750;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
 
- #bAdd  {
-    color: #FDB714;
-    font-family: Avenir LT Pro;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;  
-    display:grid;   
-    padding-bottom: 0;
-    margin-top:30px;
-} 
+#header1 {
+  color: #fdb714;
+  font-family: Avenir LT Pro;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 750;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
 
- #address1{
-     margin-bottom:0;
-     margin:10px;
- }
- 
- #para{
-     color: #FFF;
-     font-family: Avenir LT Pro;
-     font-size: 20px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: normal;
-     text-transform: capitalize;
-     width: 241px;
-     height: 71px;
-     flex-shrink: 0;
-     margin-top:0;
-     padding-bottom: 40px;
- }
- 
- .publicate{
-     color: #FDB714;
-     font-family: Avenir LT Pro;
-     font-size: 35px;
-     font-style: normal;
-     font-weight: 750;
-     line-height: normal;
-     text-transform: uppercase;
-     margin-top:30px;
-     
- }
- 
- #public{
-     margin-bottom:0;
-     padding:0;
- }
- 
- #para1{
-     color: #FFF;
-     font-family: Avenir LT Pro;
-     font-size: 20px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: normal;
-     text-transform: capitalize;
-     width: 218px;
-     height: 116px;
-     flex-shrink: 0;
-     margin-top: 0;
-     padding-left: 18px;
-     text-decoration: none;
- }
- 
- a{
-     text-decoration: none;
-     color:#FFF;
- }
- 
- a:hover{
-     color:#FDB714;
- }
- 
- #rel{
-     margin-bottom: 0;
- }
- 
- #para2 {
-     color: #FFF;
-     font-family: Avenir LT Pro;
-     font-size: 20px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: normal;
-     text-transform: capitalize;
-     width: 284px;
-     height: 220px;
-     flex-shrink: 0;
-     margin-top: 0;
-     padding-left: 18px;
- }
- 
- .related{
-     color: #FDB714;
-     font-family: Avenir LT Pro;
-     font-size: 35px;
-     font-style: normal;
-     font-weight: 750;
-     line-height: normal;
-     text-transform: uppercase;
-     margin-top:30px;
- }
- 
+.first1 {
+  display: flex;
+  margin: 60px auto;
+  margin-bottom: 50px;
+}
 
- 
- /* #bAdd a:focus{
+.upper_part {
+  margin-bottom: 70px;
+}
+
+#request {
+  border-radius: 30px;
+  background: #9a0002;
+  width: 340px;
+  height: 74px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Avenir LT Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 15px;
+  border: none;
+}
+
+#apply {
+  border-radius: 30px;
+  background: #fdb714;
+  width: 340px;
+  height: 74px;
+  flex-shrink: 0;
+  color: #9a0002;
+  text-align: center;
+  font-family: Avenir LT Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 30px;
+  border: none;
+}
+
+#explore {
+  border-radius: 30px;
+  background: #9a0002;
+  width: 340px;
+  height: 74px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Avenir LT Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 30px;
+  border: none;
+}
+
+.image {
+  background: lightgray 50% / cover no-repeat;
+  height: 519px;
+  flex-shrink: 0;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.line1 {
+  background: #fdb714;
+  height: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.second {
+  background: #9a0002;
+  width: 1440px;
+  height: 362px;
+  flex-shrink: 0;
+  margin-right: 0;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.foot {
+  padding-top: 0;
+  margin-top: 0;
+  border: 1px solid red;
+  width: 100%;
+}
+
+.dlihe {
+  border-radius: 20px;
+  background: url(), lightgray 50% / cover no-repeat;
+  width: 202px;
+  height: 201px;
+  flex-shrink: 0;
+  margin-left: 80px;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+.logo {
+  display: flex;
+  margin: 10px;
+  margin-top: 0;
+  margin-left: 60px;
+}
+
+.face {
+  margin-left: 10px;
+  margin-right: 6px;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.twitt {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  margin-right: 6px;
+}
+
+.insta {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  margin-right: 6px;
+}
+
+.youtube {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.vl {
+  border-left: 3px solid #fdb714;
+  height: 300px;
+  width: 0px;
+  margin-top: 20px;
+}
+
+.address {
+  color: #fdb714;
+  font-family: Avenir LT Pro;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 750;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+#bAdd {
+  color: #fdb714;
+  font-family: Avenir LT Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  display: grid;
+  padding-bottom: 0;
+  margin-top: 30px;
+}
+
+#address1 {
+  margin-bottom: 0;
+  margin: 10px;
+}
+
+#para {
+  color: #fff;
+  font-family: Avenir LT Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 241px;
+  height: 71px;
+  flex-shrink: 0;
+  margin-top: 0;
+  padding-bottom: 40px;
+}
+
+.publicate {
+  color: #fdb714;
+  font-family: Avenir LT Pro;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 750;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+#public {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#para1 {
+  color: #fff;
+  font-family: Avenir LT Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 218px;
+  height: 116px;
+  flex-shrink: 0;
+  margin-top: 0;
+  padding-left: 18px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #fdb714;
+}
+
+#rel {
+  margin-bottom: 0;
+}
+
+#para2 {
+  color: #fff;
+  font-family: Avenir LT Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 284px;
+  height: 220px;
+  flex-shrink: 0;
+  margin-top: 0;
+  padding-left: 18px;
+}
+
+.related {
+  color: #fdb714;
+  font-family: Avenir LT Pro;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 750;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+/* #bAdd a:focus{
      color:#FFF;
  } */
- 
- /* .cmap{
+
+/* .cmap{
      color: #FDB714;
      font-family: Avenir LT Pro;
      font-size: 24px;
@@ -334,30 +321,32 @@
      text-transform: capitalize; 
      text-decoration: none;
  } */
- 
- .copyright{
-     display: flex;
-     justify-content: center;
-     padding-top: 10px;
-     width: 1440px;
-     height: 42px;
-     flex-shrink: 0;
-     background: #FDB714;
-     color: #9A0002;
-     font-family: Avenir LT Pro;
-     font-size: 20px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: normal;
-     text-transform: capitalize;
-     text-align: center;
-     margin-top: 0;
-     width:100%;
-   
- }
- 
- /* upper part are css of footer 
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  width: 1440px;
+  height: 42px;
+  flex-shrink: 0;
+  background: #fdb714;
+  color: #9a0002;
+  font-family: Avenir LT Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 0;
+  width: 100%;
+}
+
+/* upper part are css of footer 
  
  below are the css of explore*/
- 
- 
+
+.main-div {
+  display: flex;
+  background-color: red;
+}

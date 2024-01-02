@@ -60,10 +60,10 @@ li {
   height: 100vh;
   background-image: linear-gradient(
       to right,
-      rgba(255, 255, 255, 0.4),
-      rgba(255, 255, 255, 0.4)
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
     ),
-    url("/images/Hero.JPG");
+    url("/images/dlihe-bg.jpeg");
   background-size: cover;
   background-attachment: fixed;
   /* background-size: 100%; */
@@ -376,3 +376,5 @@ a:hover {
   max-width: 1100px;
   margin: 0 auto;
 }
+
+/*Administration*/

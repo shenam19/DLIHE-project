@@ -29,7 +29,7 @@ function Programs() {
         <div className="relative">
           <img
             className="rounded-2xl overflow-hidden w-full h-[300px] object-cover"
-            src="https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="./images/budhhist studies.jpeg"
             alt=""
           />
           <div className="text-container absolute top-0 left-0 w-full h-full overflow-hidden rounded-2xl">
@@ -49,7 +49,7 @@ function Programs() {
           <div className="overflow-hidden rounded-2xl h-[370px] mb-8 ">
             <img
               className="rounded-2xl card-image "
-              src="https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="./images/ug under bangalore.jpeg"
               alt=""
               style={{
                 height: "370px",
@@ -73,7 +73,7 @@ function Programs() {
           <div className="overflow-hidden rounded-2xl h-[370px] mb-8 ">
             <img
               className="rounded-2xl card-image "
-              src="https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="./images/BCA.jpeg"
               alt=""
               style={{
                 height: "370px",
@@ -97,7 +97,7 @@ function Programs() {
           <div className="overflow-hidden rounded-2xl h-[370px] mb-8 ">
             <img
               className="rounded-2xl card-image "
-              src="https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="./images/bcom.jpeg"
               alt=""
               style={{
                 height: "370px",

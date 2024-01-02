@@ -1,4 +1,3 @@
-
 import { Route, Routes } from "react-router-dom";
 
 import Navbar from "./Pages/Navbar/Navbar";
@@ -16,6 +15,7 @@ import EventDetail from "./Pages/EventDetail";
 import Announcement from "./Pages/AllAnouncement";
 import Student from "./Pages/StudentCouncil/Student";
 import Lowerfoot from "./Pages/Footers/Lowerfoot";
+import AdministrationPage from "./Pages/AdministrationPage";
 
 import "./App.css";
 
@@ -37,7 +37,8 @@ function App() {
 
         <Route path="/news/:id" element={<NewsDetail />} />
         <Route path="/event/:id" element={<EventDetail />} />
-        <Route path="/student" elemen={<Student />} t />
+        <Route path="/student" elemen={<Student />} />
+        <Route path="/administration" element={<AdministrationPage />} />
       </Routes>
       <Lowerfoot />
     </div>
