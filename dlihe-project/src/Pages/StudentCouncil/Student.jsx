@@ -2,7 +2,7 @@ import React from "react";
 
 const Student = () => {
   return (
-    <div className="pt-[15%]">
+    <div className="pt-[15%] mb-20">
       <div className=" flex items-center gap-5 ml-40">
         <div className=" w-1 rounded-3xl h-16 bg-[#FDB714]" />
         <h1 className=" text-[80px] font-[750] text-[#9A0002]">

@@ -88,7 +88,7 @@ const Navbar = () => {
           <div className="flex items-end justify-end pb-2 ">
             <ul className="flex space-x-16 justify-center ">
               <li>
-                <a href="#">Student Council</a>
+                <Link to="/student">Student Council</Link>
               </li>
               <li>
                 <Link to="/academic">Academic & Admission</Link>

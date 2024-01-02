@@ -3,7 +3,7 @@ import sample from "../../assets/sample.jpg";
 
 function About() {
   return (
-    <div className="">
+    <div className=" mb-20">
       <div className=" box flex flex-col gap-5  ">
         <img src={sample} className=" h-[350px] w-full object-cover" />
 
