@@ -1,5 +1,6 @@
 import React from "react";
 import Sample from "/images/sample.jpg";
+import { Epage } from "../../Components/Explore/Epage";
 
 const Campus = () => {
   return (
@@ -17,7 +18,7 @@ const Campus = () => {
 
       <div className="flex flex-col items-center mt-10">
         <h1 className=" text-[#FDB714] text-[40px]">
-          Where Vvery Memories Created
+          Where Very Memories Created
         </h1>
         <div className=" h-0.5 w-[80%] bg-[#FDB714]"></div>
 
@@ -102,8 +103,9 @@ const Campus = () => {
           <li >Take risks in learning and question everything!</li>
           <li >Participation is key to learning</li>
         </ul>
-        
+
       </div>
+      <Epage/>
     </div>
   );
 };

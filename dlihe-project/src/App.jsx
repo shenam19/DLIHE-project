@@ -16,8 +16,10 @@ import Announcement from "./Pages/AllAnouncement";
 import Student from "./Pages/StudentCouncil/Student";
 import Lowerfoot from "./Pages/Footers/Lowerfoot";
 import AdministrationPage from "./Pages/Administration/AdministrationPage";
+import Campus from "./Pages/Campus/Campus";
 
 import "./App.css";
+
 
 function App() {
   return (
@@ -38,6 +40,7 @@ function App() {
         <Route path="/news/:id" element={<NewsDetail />} />
         <Route path="/event/:id" element={<EventDetail />} />
         <Route path="/student" elemen={<Student />} />
+        <Route path="/campus" element={<Campus/>}/>
         <Route path="/administration" element={<AdministrationPage />} />
       </Routes>
       <Lowerfoot />

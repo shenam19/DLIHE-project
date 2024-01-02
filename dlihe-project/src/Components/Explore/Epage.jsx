@@ -14,7 +14,7 @@ import update from "/images/update.png"
 import opportunity from "/images/opportunity.png"
 import campus from "/images/campus.png"
 
-import './Epage'
+import './Epage.css'
 
 export const Epage = () => {
   return (
