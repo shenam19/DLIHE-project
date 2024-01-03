@@ -56,6 +56,9 @@ const EventDetail = () => {
         </h1>
       </div>
       <div className="cards">
+        <h1 className="text-3xl ml-[11.5rem] mb-4 capitalize">
+          {eventDetail.title}
+        </h1>
         <img
           src={eventDetail.image.url}
           alt=""

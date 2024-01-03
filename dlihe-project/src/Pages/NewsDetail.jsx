@@ -78,10 +78,7 @@ const NewsDetail = () => {
                 {console.log(item)}
                 <div className="main-card">
                   <div className="card_image">
-                    <img
-                      src="https://picsum.photos/500/300/?image=10"
-                      alt="Card"
-                    />
+                    <img src={item.image.url} alt="Card" />
                   </div>
                   <div className="card_content">
                     <p className="card_title text-yellow-400 text-xl">

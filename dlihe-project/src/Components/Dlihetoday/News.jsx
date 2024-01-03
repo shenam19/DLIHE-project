@@ -6,7 +6,6 @@
 // import Sample from '../../assets/sample.jpg'
 // import EventBar from "../../Compo/EventBar";
 
-
 // function News() {
 //   return (
 
@@ -92,7 +91,7 @@
 //                       </div>
 
 //                       <div class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-1000 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
-                       
+
 //                         <div>
 //                           <div class="bg-black bg-opacity-50 p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-1000 ease-in-out">
 //                             <div class="text-sm ">
@@ -127,7 +126,6 @@
 //           </div>
 
 //           <div className="w-[1140px] h-[100%] mt-10 flex justify-center mx-auto gap-10">
-           
 
 //             <EventBar
 //             imageSrc={Sample}
@@ -146,7 +144,7 @@
 //             description={'paper trading competation.'}
 //             date={'11 dec at 12:50 pm'}
 //              />
-          
+
 //           </div>
 
 //         </div>
@@ -160,7 +158,6 @@
 
 // export default News;
 
-
 import React, { useEffect, useState } from "react";
 import { RxArrowRight } from "react-icons/rx";
 import pata from "../../assets/pata.png";
@@ -171,8 +168,6 @@ import EventBar from "../../Compo/EventBar";
 import { Link } from "react-router-dom";
 
 function News() {
-
-
   const formatDate = (dateString) => {
     const options = {
       day: "numeric",
@@ -264,7 +259,7 @@ function News() {
                                   </span>{" "}
                                   {/* workshop on career in research and software
                                 engineering */}
-                                  {a.description}
+                                  {a.description.substring(0, 40)}...
                                 </div>
                               </div>
                             </div>
@@ -280,46 +275,6 @@ function News() {
                   </div>
                 </Link>
               ))}
-
-              {/* event2 */}
-              {/* <div>
-                <div>
-                  <div>
-                    <div class="overflow-hidden  aspect-video bg-red-400 rounded-xl relative group w-[483px] h-[296px]">
-                      <div className="bg-[#FDB714] w-[77px] absolute rounded-b-lg ml-20 z-[100]">
-                        <div className=" mb-2">
-                          <h1 className=" text-[32px] font-bold text-center text-[#9A0002]">
-                            11
-                          </h1>
-                          <div className="flex items-center justify-center gap-1 text-[#9A0002] text-[13px] ">
-                            <p>Dec</p>
-                            <p>2023</p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-1000 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
-                        <div>
-                          <div class="bg-black bg-opacity-50 p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-1000 ease-in-out">
-                            <div class="text-sm ">
-                              <span className=" text-[#FDB714]">
-                                navigating the infinite horizon:
-                              </span>
-                              workshop on career in research and software
-                              engineering
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <img
-                        alt=""
-                        class="w-full aspect-square group-hover:scale-110 transition duration-1000 ease-in-out object-cover"
-                        src={upcoming2}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div> */}
             </div>
           </div>
 
@@ -345,13 +300,14 @@ function News() {
             ))}
           </div>
         </div>
-        <p className="flex items-center justify-end text-[20px] text-[#FDB714] mt-10 mr-16 cursor-pointer">
-          visit for more news & events <RxArrowRight className=" text-xl" />{" "}
-        </p>
+        <Link to={`/news`}>
+          <p className="flex items-center justify-end text-[20px] text-[#FDB714] mt-10 mr-16 cursor-pointer">
+            visit for more news & events <RxArrowRight className=" text-xl" />{" "}
+          </p>
+        </Link>
       </div>
     </div>
   );
 }
 
 export default News;
-

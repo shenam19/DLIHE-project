@@ -40,18 +40,18 @@ const Announcement = () => {
           {data.map((item) => (
             <div className="flex   rounded-2xl  mb-8  shadow-lg">
               <img
-                src="https://picsum.photos/500/300/?image=10"
+                src={item.image.url}
                 alt="Card"
-                className="w-1/3 rounded-tl-2xl rounded-bl-2xl"
+                className="w-1/3 rounded-tl-2xl rounded-bl-2xl w-[250px] h-[220px] object-cover"
               />
 
               {/* Text on the right */}
               <div className="flex flex-col justify-center p-8 w-2/3 bg-white rounded-tr-2xl rounded-br-2xl">
-                <h2 className="text-3xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl  text-start font-bold text-gray-800 mb-4">
                   <span className="text-[#FDB714]">Announcements,Event</span>{" "}
                   {formatDate(item.createdAt)}
                 </h2>
-                <p className="text-gray-600">{item.title}</p>
+                <p className="text-gray-600">{item.description}</p>
               </div>
             </div>
           ))}

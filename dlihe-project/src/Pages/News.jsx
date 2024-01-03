@@ -37,21 +37,18 @@ const News = () => {
       <div className="card-main">
         <ul className="cards">
           {data.map((item) => (
-            <li key={item._id} className="cards_item">
+            <li key={item._id} className="cards_item ">
               <Link to={`/news/${item._id}`}>
                 {console.log(item)}
                 <div className="main-card">
                   <div className="card_image">
-                    <img
-                      src="https://picsum.photos/500/300/?image=10"
-                      alt="Card"
-                    />
+                    <img src={item.image.url} alt="Card" />
                   </div>
                   <div className="card_content">
                     <p className="card_title text-yellow-400 text-xl">
                       {formatDate(item.createdAt)}
                     </p>
-                    <p className="card_text">{item.title}</p>
+                    <p className="card_text ">{item.title}</p>
                   </div>
                 </div>
               </Link>
