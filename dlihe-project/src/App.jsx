@@ -17,6 +17,7 @@ import Lowerfoot from "./Pages/Footers/Lowerfoot";
 import AdministrationPage from "./Pages/Administration/AdministrationPage";
 import Campus from "./Pages/Campus/Campus";
 import Student from "./Pages/StudentCouncil/Student"
+import Phdpage from "./Components/Phd/Phdpage"
 
 import "./App.css";
 
@@ -41,6 +42,7 @@ function App() {
         <Route path="/event/:id" element={<EventDetail />} />
         <Route path="/campus" element={<Campus/>}/>
         <Route path="/administration" element={<AdministrationPage />} />
+       <Route path="/phdpage" element={<Phdpage/>}/>
       </Routes>
       <Lowerfoot />
     </div>

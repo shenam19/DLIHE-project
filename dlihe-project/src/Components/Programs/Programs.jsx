@@ -1,8 +1,10 @@
-import React from "react";
+
 import bu from '/images/Bu.png'
 import bca from '/images/bca.jpg'
 import phd from '/images/phd.jpg'
-import commerce from '/public/images/commerce.jpg'
+import commerce from '/images/commerce.jpg'
+
+import { Link } from "react-router-dom";
 
 function Programs() {
   const handleMouseEnter = (e) => {
@@ -63,10 +65,12 @@ function Programs() {
               }}
             />
           </div>
-
+          <Link to='/phdpage'> 
           <p className=" m-auto capitalize">
             UG programs Under the university of bangalore
           </p>
+          </Link>
+         
         </div>
 
         <div
